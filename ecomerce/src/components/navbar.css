@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+/*.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(9, 6, 11);
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center;
+  }
+  
+  .links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 6px 15px;
+    border-radius: 5px;
+  }
+  .links a:hover {
+   background-color:rgb(18, 202, 202);
+   color:white;
+
+  }
+  @media only screen and (max-width: 450px) {
+    .links a {
+      font-size: 20px;
+      font-weight: 600;
+      margin-left: 5px;
+      }
+      .links {
+        margin-right: 10px;
+      }
+    svg {
+        height: 29px;
+    }
+  }*/
+  div#navbarNavDropdown {
+    justify-content: end;
+  }
+  nav.navbar.navbar-expand-lg {
+    position:sticky;
+    padding: 17px;
+    background: #000;
+    top:0;
+    z-index: 999;
+  }
+li.nav-item a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 4px 11px;
+  font-size: 23px;
+  color: #fff;
+  font-weight: 400;
+}
+.navbar-brand {
+  font-size: 30px !important;
+  font-weight: 700;
+  font-family: 'Dancing Script', cursive !important;
+  color: #fff !important;
+}
+svg {
+  color: #fff;
+  width: 27px;
+  height: 44px;
+}
+
+
+button.navbar-toggler {
+  background: #17d8d8 !important;
+}
+li:last-child{
+  margin-left: 12px;
+}
+a:hover {
+  background-color: #17d8d8;
+  text-decoration: none !important;
+}
+.navbar-toggler-icon {
+  color: #000 !important;
+}
